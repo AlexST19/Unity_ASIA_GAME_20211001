@@ -1,0 +1,1190 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'ja' Physical Memory: 32688 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Alex/Documents/Game/001_01/Unity_ASIA_GAME_20211001/Unity_ASIA_GAME_20211001
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57159
+Successfully changed project path to: C:/Users/Alex/Documents/Game/001_01/Unity_ASIA_GAME_20211001/Unity_ASIA_GAME_20211001
+C:/Users/Alex/Documents/Game/001_01/Unity_ASIA_GAME_20211001/Unity_ASIA_GAME_20211001
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Alex/Documents/Game/001_01/Unity_ASIA_GAME_20211001/Unity_ASIA_GAME_20211001/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.6192
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001881 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 31.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.509 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1510ms)
+		BeginReloadAssembly (41ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (311ms)
+			LoadAssemblies (40ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (113ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (122ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (31ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (59ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002503 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 30.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.822 seconds
+Domain Reload Profiling:
+	ReloadAssembly (822ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (665ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (249ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (31ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2529.
+Total: 2.661300 ms (FindLiveObjects: 0.214500 ms CreateObjectMapping: 0.076900 ms MarkObjects: 2.318300 ms  DeleteObjects: 0.050700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(80d2b39f695397247b1ef0216b86ca05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(80d2b39f695397247b1ef0216b86ca05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7627303c6e8dfbd9b3aa3785510571f') in 0.008003 seconds 
+  Import took 0.010707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 493.161632 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.005761 seconds 
+  Import took 0.009302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002811 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.002263 seconds 
+  Import took 0.004781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.947178 seconds.
+  path: Assets/遊戲場景
+  artifactKey: Guid(e69a014e8945daf40bcefda2abd08ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景 using Guid(e69a014e8945daf40bcefda2abd08ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363b421e632fb1e37620156bbab2c031') in 0.006006 seconds 
+  Import took 0.008831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 308.998320 seconds.
+  path: Assets/遊戲場景/DarkForest1.2
+  artifactKey: Guid(2e470504c864c2b43b789b53e27dd752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/DarkForest1.2 using Guid(2e470504c864c2b43b789b53e27dd752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcffa4b375cea309b3a9360455dc5587') in 0.008058 seconds 
+  Import took 0.011090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.291692 seconds.
+  path: Assets/遊戲場景/DarkForest1.2/bgrd_tree1.png
+  artifactKey: Guid(204009621d6bcce4c86478fa908b0f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/DarkForest1.2/bgrd_tree1.png using Guid(204009621d6bcce4c86478fa908b0f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c47449d5df68c99d18a24d04f5ade81') in 0.074615 seconds 
+  Import took 0.077398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/遊戲場景/DarkForest1.2/wood_env.png
+  artifactKey: Guid(71f1eb2f03c2641478290f13539e7316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/DarkForest1.2/wood_env.png using Guid(71f1eb2f03c2641478290f13539e7316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e4283e0c87b6b2f6fc79bc38641c06') in 0.025330 seconds 
+  Import took 0.027884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/遊戲場景/DarkForest1.2/bgrd_tree3.png
+  artifactKey: Guid(79f2f01d0336bd043a64186b67fdd446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/DarkForest1.2/bgrd_tree3.png using Guid(79f2f01d0336bd043a64186b67fdd446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df3568334eef4e5a6c1931cd5abede8') in 0.009886 seconds 
+  Import took 0.012425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/遊戲場景/DarkForest1.2/bgrd_tree4.png
+  artifactKey: Guid(8fd41e470a4230e49ae893b689a62d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/DarkForest1.2/bgrd_tree4.png using Guid(8fd41e470a4230e49ae893b689a62d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86df6d354b572fec0630ce1695cc0a4') in 0.009469 seconds 
+  Import took 0.012059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/遊戲場景/DarkForest1.2/bgrd_tree5.png
+  artifactKey: Guid(6a68052e6b89d3d4a9ef47a05689c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/DarkForest1.2/bgrd_tree5.png using Guid(6a68052e6b89d3d4a9ef47a05689c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d48cadab3c29feefda6fa6adf0a0ab8') in 0.009632 seconds 
+  Import took 0.012163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/遊戲場景/DarkForest1.2/castle_env.png
+  artifactKey: Guid(3674b62a2211d8948ac7017459eaabe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/DarkForest1.2/castle_env.png using Guid(3674b62a2211d8948ac7017459eaabe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd279b65650f133e9b2da3d3b0c679e9c') in 0.013003 seconds 
+  Import took 0.015519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/遊戲場景/DarkForest1.2/env_rock.png
+  artifactKey: Guid(c636cd055214bf64ea13d5c213450085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/DarkForest1.2/env_rock.png using Guid(c636cd055214bf64ea13d5c213450085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096fcea17ebe50191ba65ef4b3793f39') in 0.013554 seconds 
+  Import took 0.016128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/遊戲場景/DarkForest1.2/bgrd_tree2.png
+  artifactKey: Guid(648a85d51b3eefa4a8a4e6ea9a8892c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/DarkForest1.2/bgrd_tree2.png using Guid(648a85d51b3eefa4a8a4e6ea9a8892c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c4900dca8e79e6526f5e21b7c2a950') in 0.009284 seconds 
+  Import took 0.011824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/遊戲場景/DarkForest1.2/top_far_bgrnd.png
+  artifactKey: Guid(03b129af41593ae4e818deec00a3a0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/DarkForest1.2/top_far_bgrnd.png using Guid(03b129af41593ae4e818deec00a3a0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace762f8cb4da1e41cab99c7aade9a9c') in 0.011542 seconds 
+  Import took 0.014214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/遊戲場景/DarkForest1.2/env_mon.png
+  artifactKey: Guid(f67261d57716e49458a3e287b7cf24c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/DarkForest1.2/env_mon.png using Guid(f67261d57716e49458a3e287b7cf24c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836c2ffe2c67d073800b79b8d6bd9314') in 0.011555 seconds 
+  Import took 0.014115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/遊戲場景/DarkForest1.2/decorative_obj.png
+  artifactKey: Guid(52e6ed2fddbc0244caaa5924054d65f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/DarkForest1.2/decorative_obj.png using Guid(52e6ed2fddbc0244caaa5924054d65f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db23e49980b8402cb328a1f3fc77b076') in 0.010592 seconds 
+  Import took 0.013177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/遊戲場景/DarkForest1.2/env_trees.png
+  artifactKey: Guid(27a5ff5cf05e6f44a920a6917c230c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/DarkForest1.2/env_trees.png using Guid(27a5ff5cf05e6f44a920a6917c230c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326bb7f5d36b9ee125e443cf258f758c') in 0.011763 seconds 
+  Import took 0.014330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/遊戲場景/DarkForest1.2/decorative_obj.png
+  artifactKey: Guid(52e6ed2fddbc0244caaa5924054d65f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/DarkForest1.2/decorative_obj.png using Guid(52e6ed2fddbc0244caaa5924054d65f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db23e49980b8402cb328a1f3fc77b076') in 0.009915 seconds 
+  Import took 0.012540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/遊戲場景/DarkForest1.2/main_background.png
+  artifactKey: Guid(573717ef4ab1db54cacd6454a3feeb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/DarkForest1.2/main_background.png using Guid(573717ef4ab1db54cacd6454a3feeb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2654db80a05016c0576d31f2537b619') in 0.011646 seconds 
+  Import took 0.014154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/遊戲場景/DarkForest1.2/env_ground.png
+  artifactKey: Guid(aea9848b54a9d0340a0aac7b06cc83ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/DarkForest1.2/env_ground.png using Guid(aea9848b54a9d0340a0aac7b06cc83ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f690f1a5af143e4128b37539ace533ab') in 0.012253 seconds 
+  Import took 0.014846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.357427 seconds.
+  path: Assets/遊戲場景/MR-Platformer-PixelAssets-v1
+  artifactKey: Guid(05ba84145d2b31e4e82fff14768ddf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/MR-Platformer-PixelAssets-v1 using Guid(05ba84145d2b31e4e82fff14768ddf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7adae9c7957a09020b430b2f657bd1') in 0.004664 seconds 
+  Import took 0.007301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.621731 seconds.
+  path: Assets/遊戲場景/MR-Platformer-PixelAssets-v1/MR-Platformer-PixelAssets-v1.zip
+  artifactKey: Guid(372cd39b378e55847b27f8f85d20b6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/MR-Platformer-PixelAssets-v1/MR-Platformer-PixelAssets-v1.zip using Guid(372cd39b378e55847b27f8f85d20b6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b9a127ba0e1649b0aa741fa02b267e') in 0.004666 seconds 
+  Import took 0.007347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.616097 seconds.
+  path: Assets/遊戲場景/DarkForest1.2/DarkForest1.2.zip
+  artifactKey: Guid(e8ff08982f0a7aa4189cdb26c18e620a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/DarkForest1.2/DarkForest1.2.zip using Guid(e8ff08982f0a7aa4189cdb26c18e620a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a30a922bfe3245af26f1a2fde21de9') in 0.002282 seconds 
+  Import took 0.004923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000654 seconds.
+  path: Assets/遊戲場景/DarkForest1.2/DarkForest1.2.zip
+  artifactKey: Guid(e8ff08982f0a7aa4189cdb26c18e620a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/DarkForest1.2/DarkForest1.2.zip using Guid(e8ff08982f0a7aa4189cdb26c18e620a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a30a922bfe3245af26f1a2fde21de9') in 0.002176 seconds 
+  Import took 0.004830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.854032 seconds.
+  path: Assets/遊戲場景/FPSET1_v1.0
+  artifactKey: Guid(245b7de37bb5000458fe56a1cc9ee683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/FPSET1_v1.0 using Guid(245b7de37bb5000458fe56a1cc9ee683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5edeead0d3d33f76cb47b14bc8edaed') in 0.004771 seconds 
+  Import took 0.007526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.953209 seconds.
+  path: Assets/遊戲場景/FPSET1_v1.0/FPSET1_v1.0.zip
+  artifactKey: Guid(2b3387926db042649825cd8d25ec3b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/FPSET1_v1.0/FPSET1_v1.0.zip using Guid(2b3387926db042649825cd8d25ec3b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d577ff8d58ffe6736d84a6027763fa') in 0.002215 seconds 
+  Import took 0.004920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001087 seconds.
+  path: Assets/遊戲場景/FPSET1_v1.0/FPSET1_v1.0.zip
+  artifactKey: Guid(2b3387926db042649825cd8d25ec3b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/FPSET1_v1.0/FPSET1_v1.0.zip using Guid(2b3387926db042649825cd8d25ec3b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d577ff8d58ffe6736d84a6027763fa') in 0.002350 seconds 
+  Import took 0.005043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.081323 seconds.
+  path: Assets/遊戲場景/generic_platformer_pack__bakudas
+  artifactKey: Guid(14a3939497bd268489592796009c8e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/generic_platformer_pack__bakudas using Guid(14a3939497bd268489592796009c8e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b738fff6ae13bb99602d8f4303535a9') in 0.005151 seconds 
+  Import took 0.007923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071629 seconds.
+  path: Assets/遊戲場景/generic_platformer_pack__bakudas/atlas.png
+  artifactKey: Guid(9a65f3f1fb19ba44ea15f414d1f8f1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/generic_platformer_pack__bakudas/atlas.png using Guid(9a65f3f1fb19ba44ea15f414d1f8f1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1939e5a2a8f0cb39f118429bdf5c6ba') in 0.016987 seconds 
+  Import took 0.019752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.011499 seconds.
+  path: Assets/遊戲場景/generic_platformer_pack__bakudas/generic_platformer_pack__bakudas.rar
+  artifactKey: Guid(175864f829031f64496c258d8d3d1436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/generic_platformer_pack__bakudas/generic_platformer_pack__bakudas.rar using Guid(175864f829031f64496c258d8d3d1436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca18823015d32431046a562a096f83b') in 0.003599 seconds 
+  Import took 0.006382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/遊戲場景/generic_platformer_pack__bakudas/generic_platformer_pack__bakudas.rar
+  artifactKey: Guid(175864f829031f64496c258d8d3d1436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/generic_platformer_pack__bakudas/generic_platformer_pack__bakudas.rar using Guid(175864f829031f64496c258d8d3d1436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca18823015d32431046a562a096f83b') in 0.002234 seconds 
+  Import took 0.004848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.277079 seconds.
+  path: Assets/遊戲場景/Metroidvania-DemoProject
+  artifactKey: Guid(e8bc04e8a09951d40bb6ba9fa422b5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Metroidvania-DemoProject using Guid(e8bc04e8a09951d40bb6ba9fa422b5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9d1b301c9fad513719fb51a01d95d9') in 0.004809 seconds 
+  Import took 0.007611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.898908 seconds.
+  path: Assets/遊戲場景/Metroidvania-DemoProject/Metroidvania-DemoProject.zip
+  artifactKey: Guid(bb99bfdbab5d47745bdb6edd2c8b3a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Metroidvania-DemoProject/Metroidvania-DemoProject.zip using Guid(bb99bfdbab5d47745bdb6edd2c8b3a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f94a8225ee35f837a8b6b168620783') in 0.002278 seconds 
+  Import took 0.005019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/遊戲場景/Metroidvania-DemoProject/Metroidvania-DemoProject.zip
+  artifactKey: Guid(bb99bfdbab5d47745bdb6edd2c8b3a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Metroidvania-DemoProject/Metroidvania-DemoProject.zip using Guid(bb99bfdbab5d47745bdb6edd2c8b3a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f94a8225ee35f837a8b6b168620783') in 0.002238 seconds 
+  Import took 0.004966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.549357 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props
+  artifactKey: Guid(d5a37f0f57c498f488238d7963ef582b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props using Guid(d5a37f0f57c498f488238d7963ef582b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f4065664adaa31abab064fdd45a676') in 0.006382 seconds 
+  Import took 0.009176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.296571 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Pixel Art Platformer - Village Props.zip
+  artifactKey: Guid(41db5f75c5511f64789e6d50f7b955ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Pixel Art Platformer - Village Props.zip using Guid(41db5f75c5511f64789e6d50f7b955ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4336622090ee44e2d8fd956ed63ebfa') in 0.002248 seconds 
+  Import took 0.004967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000641 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Pixel Art Platformer - Village Props.zip
+  artifactKey: Guid(41db5f75c5511f64789e6d50f7b955ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Pixel Art Platformer - Village Props.zip using Guid(41db5f75c5511f64789e6d50f7b955ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4336622090ee44e2d8fd956ed63ebfa') in 0.002254 seconds 
+  Import took 0.004871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.891468 seconds.
+  path: Assets/遊戲場景/Pixel2DCastle1.1
+  artifactKey: Guid(cfa8bdbf0fca7044395802ab35561523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel2DCastle1.1 using Guid(cfa8bdbf0fca7044395802ab35561523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60523a219850062287d0624720a32488') in 0.005908 seconds 
+  Import took 0.008646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.247371 seconds.
+  path: Assets/遊戲場景/Pixel2DCastle1.1/anim_light1.png
+  artifactKey: Guid(234497e8ca887e04e892ae796492b1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel2DCastle1.1/anim_light1.png using Guid(234497e8ca887e04e892ae796492b1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a543a94e986228b9dae994969d60765') in 0.011008 seconds 
+  Import took 0.013931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/遊戲場景/Pixel2DCastle1.1/env_objects_far.png
+  artifactKey: Guid(bc7a45bacbb455748ad3012fc942f203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel2DCastle1.1/env_objects_far.png using Guid(bc7a45bacbb455748ad3012fc942f203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e826e0073738a97e0d2347e9f5cc5135') in 0.024802 seconds 
+  Import took 0.027297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/遊戲場景/Pixel2DCastle1.1/walls_side_top_far.png
+  artifactKey: Guid(c0c7005d1ba966346a1f44fb0fd5fac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel2DCastle1.1/walls_side_top_far.png using Guid(c0c7005d1ba966346a1f44fb0fd5fac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5189cb6c862ae87846687cd21b37c2a3') in 0.024780 seconds 
+  Import took 0.027414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/遊戲場景/Pixel2DCastle1.1/ground.png
+  artifactKey: Guid(bd46236e0677b194bb1ad50a4ffa66d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel2DCastle1.1/ground.png using Guid(bd46236e0677b194bb1ad50a4ffa66d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17f2c90fa9c7188de79e6372e583e5e') in 0.011335 seconds 
+  Import took 0.013860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/遊戲場景/Pixel2DCastle1.1/environment.png
+  artifactKey: Guid(ab950179cf2d3aa44b3e3987d1fb5d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel2DCastle1.1/environment.png using Guid(ab950179cf2d3aa44b3e3987d1fb5d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3730e3396170a78a16eb17b1709abef1') in 0.011833 seconds 
+  Import took 0.014455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/遊戲場景/Pixel2DCastle1.1/walls.png
+  artifactKey: Guid(ee9683bfdddec9b43b92195eeb8ef851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel2DCastle1.1/walls.png using Guid(ee9683bfdddec9b43b92195eeb8ef851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bb5ab0ca906be980247a7d72e52eba') in 0.011607 seconds 
+  Import took 0.014154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/遊戲場景/Pixel2DCastle1.1/anim_light3.png
+  artifactKey: Guid(79b54c1793057cd41b85fbf714b6bb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel2DCastle1.1/anim_light3.png using Guid(79b54c1793057cd41b85fbf714b6bb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9020b1ded38f834e65df56aeec5acb6') in 0.010941 seconds 
+  Import took 0.013515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/遊戲場景/Pixel2DCastle1.1/wood_env.png
+  artifactKey: Guid(cda79591007fee249aabeaa8251f2a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel2DCastle1.1/wood_env.png using Guid(cda79591007fee249aabeaa8251f2a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90d2b3c9fda2fbcb9917baabc0d96a1') in 0.011374 seconds 
+  Import took 0.013920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/遊戲場景/Pixel2DCastle1.1/terrain.png
+  artifactKey: Guid(dec73b0b25274484e98701074ed5b612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel2DCastle1.1/terrain.png using Guid(dec73b0b25274484e98701074ed5b612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2dd02de0f9af5154e68d29a341efe7c') in 0.012453 seconds 
+  Import took 0.015094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/遊戲場景/Pixel2DCastle1.1/background.png
+  artifactKey: Guid(952e03362ade43045a065156c7d31433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel2DCastle1.1/background.png using Guid(952e03362ade43045a065156c7d31433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71e4a1c007bd6601836e4c536122fa1') in 0.012429 seconds 
+  Import took 0.015097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/遊戲場景/Pixel2DCastle1.1/terrain.png
+  artifactKey: Guid(dec73b0b25274484e98701074ed5b612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel2DCastle1.1/terrain.png using Guid(dec73b0b25274484e98701074ed5b612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2dd02de0f9af5154e68d29a341efe7c') in 0.010490 seconds 
+  Import took 0.013155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/遊戲場景/Pixel2DCastle1.1/walls_side_top.png
+  artifactKey: Guid(fd18a30efa0b4b94c8d16892241030f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel2DCastle1.1/walls_side_top.png using Guid(fd18a30efa0b4b94c8d16892241030f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe97ed6c4331325003d24762c7ee5b7') in 0.010899 seconds 
+  Import took 0.013584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/遊戲場景/Pixel2DCastle1.1/walls_far.png
+  artifactKey: Guid(ea4a6cf716761d84e912168f20c23ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel2DCastle1.1/walls_far.png using Guid(ea4a6cf716761d84e912168f20c23ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb2b74fd585886cb13092e09ae5b47b') in 0.012490 seconds 
+  Import took 0.015116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/遊戲場景/Pixel2DCastle1.1/anim_lights.png
+  artifactKey: Guid(931050007d74b7b4188abd2e414277f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel2DCastle1.1/anim_lights.png using Guid(931050007d74b7b4188abd2e414277f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6e16f81325785a9ecfae2b659ad06d') in 0.011196 seconds 
+  Import took 0.013801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/遊戲場景/Pixel2DCastle1.1/env_objects.png
+  artifactKey: Guid(747afd6508ffa4447afa43ecc88c0c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel2DCastle1.1/env_objects.png using Guid(747afd6508ffa4447afa43ecc88c0c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdde0ae80cdf28861dff453ace30e75') in 0.011837 seconds 
+  Import took 0.014462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/遊戲場景/Pixel2DCastle1.1/anim_light2.png
+  artifactKey: Guid(0ad5f6b8ac5379c4b9de5c659d36e4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel2DCastle1.1/anim_light2.png using Guid(0ad5f6b8ac5379c4b9de5c659d36e4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4faa6d5744fd9d6155d17846461420') in 0.010822 seconds 
+  Import took 0.013397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.651767 seconds.
+  path: Assets/遊戲場景/Pixel2DCastle1.1/Pixel2DCastle1.1.zip
+  artifactKey: Guid(65b6bb058e0f7e54883162f3fa49fd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel2DCastle1.1/Pixel2DCastle1.1.zip using Guid(65b6bb058e0f7e54883162f3fa49fd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1101508eb1d0e3965d27b0ba6ea6ef7') in 0.002342 seconds 
+  Import took 0.005067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000680 seconds.
+  path: Assets/遊戲場景/Pixel2DCastle1.1/Pixel2DCastle1.1.zip
+  artifactKey: Guid(65b6bb058e0f7e54883162f3fa49fd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel2DCastle1.1/Pixel2DCastle1.1.zip using Guid(65b6bb058e0f7e54883162f3fa49fd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1101508eb1d0e3965d27b0ba6ea6ef7') in 0.002190 seconds 
+  Import took 0.004793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.903275 seconds.
+  path: Assets/遊戲場景/stringstar fields
+  artifactKey: Guid(446ab1d5b660869449cfc15f97270f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/stringstar fields using Guid(446ab1d5b660869449cfc15f97270f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bc58e1eaf52d4efa5788fe71fbeee0') in 0.005765 seconds 
+  Import took 0.008471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082505 seconds.
+  path: Assets/遊戲場景/stringstar fields/background_0.png
+  artifactKey: Guid(787d9e766d1df744084173c8723c9bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/stringstar fields/background_0.png using Guid(787d9e766d1df744084173c8723c9bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107ee57b403b447922ec770995bba291') in 0.009836 seconds 
+  Import took 0.012642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/遊戲場景/stringstar fields/example.png
+  artifactKey: Guid(7caae178870aa474d923664e25b6da14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/stringstar fields/example.png using Guid(7caae178870aa474d923664e25b6da14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8776476d84fb3f8a125ec218da85e575') in 0.014146 seconds 
+  Import took 0.016659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/遊戲場景/stringstar fields/tileset.png
+  artifactKey: Guid(a3e10bd2d6f9bb74898c7baea67fc120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/stringstar fields/tileset.png using Guid(a3e10bd2d6f9bb74898c7baea67fc120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d414f68a167f55204d16c329754d25') in 0.015868 seconds 
+  Import took 0.018367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/遊戲場景/stringstar fields/background_2.png
+  artifactKey: Guid(af44c2e1dd0ab5e42a1d04ba6c610332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/stringstar fields/background_2.png using Guid(af44c2e1dd0ab5e42a1d04ba6c610332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12efd0e8579dc72893cc6fc12df7001d') in 0.012120 seconds 
+  Import took 0.014689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/遊戲場景/stringstar fields/background_1.png
+  artifactKey: Guid(d9c454c4d2749f347b4d598c1bbf00f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/stringstar fields/background_1.png using Guid(d9c454c4d2749f347b4d598c1bbf00f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b18e2db4ec5d2c5b29a01568321cdbb') in 0.012222 seconds 
+  Import took 0.014859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.578689 seconds.
+  path: Assets/遊戲場景/stringstar fields/stringstar fields.zip
+  artifactKey: Guid(4e0a9a8c599102f49a7f6188c68821bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/stringstar fields/stringstar fields.zip using Guid(4e0a9a8c599102f49a7f6188c68821bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b78a65c6a320760da596da981a7092') in 0.002336 seconds 
+  Import took 0.005160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000590 seconds.
+  path: Assets/遊戲場景/stringstar fields/stringstar fields.zip
+  artifactKey: Guid(4e0a9a8c599102f49a7f6188c68821bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/stringstar fields/stringstar fields.zip using Guid(4e0a9a8c599102f49a7f6188c68821bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b78a65c6a320760da596da981a7092') in 0.002215 seconds 
+  Import took 0.004769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.061878 seconds.
+  path: Assets/遊戲場景/MR-Platformer-PixelAssets-v1/Main
+  artifactKey: Guid(a98f48c0cb290bb4c9de2313c2b82434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/MR-Platformer-PixelAssets-v1/Main using Guid(a98f48c0cb290bb4c9de2313c2b82434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a347533be18e27e08100e8e0d0e43f') in 0.004652 seconds 
+  Import took 0.007567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/遊戲場景/MR-Platformer-PixelAssets-v1/Main
+  artifactKey: Guid(a98f48c0cb290bb4c9de2313c2b82434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/MR-Platformer-PixelAssets-v1/Main using Guid(a98f48c0cb290bb4c9de2313c2b82434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a347533be18e27e08100e8e0d0e43f') in 0.002033 seconds 
+  Import took 0.004648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.787004 seconds.
+  path: Assets/遊戲場景/MR-Platformer-PixelAssets-v1/Main/Backgrounds
+  artifactKey: Guid(d9c0dd018ee42df4393c2be167518ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/MR-Platformer-PixelAssets-v1/Main/Backgrounds using Guid(d9c0dd018ee42df4393c2be167518ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34d4637f895ddaec68dd11744dfb44b') in 0.004725 seconds 
+  Import took 0.007757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089257 seconds.
+  path: Assets/遊戲場景/MR-Platformer-PixelAssets-v1/Main/Backgrounds/merged-full-background.png
+  artifactKey: Guid(92caf98b3f11251429402c9cbb5a3b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/MR-Platformer-PixelAssets-v1/Main/Backgrounds/merged-full-background.png using Guid(92caf98b3f11251429402c9cbb5a3b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd68bb9494e817006041b7574bef64aa') in 0.010351 seconds 
+  Import took 0.013213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/遊戲場景/MR-Platformer-PixelAssets-v1/Main/Backgrounds/parallax-forest-trees-02.png
+  artifactKey: Guid(8fb75024b1ef5084d88b83e2745c08c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/MR-Platformer-PixelAssets-v1/Main/Backgrounds/parallax-forest-trees-02.png using Guid(8fb75024b1ef5084d88b83e2745c08c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b69043057be696365041268d566785') in 0.011877 seconds 
+  Import took 0.014464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/遊戲場景/MR-Platformer-PixelAssets-v1/Main/Backgrounds/parallax-background-sky.png
+  artifactKey: Guid(834ae5a07e97dc043bf36d8c0799e4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/MR-Platformer-PixelAssets-v1/Main/Backgrounds/parallax-background-sky.png using Guid(834ae5a07e97dc043bf36d8c0799e4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011021a27202e474f83c054d7cfdf627') in 0.010727 seconds 
+  Import took 0.013336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/遊戲場景/MR-Platformer-PixelAssets-v1/Main/Backgrounds/parallax-background-mountains.png
+  artifactKey: Guid(b3808188acc05fe4d8744f9f40856368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/MR-Platformer-PixelAssets-v1/Main/Backgrounds/parallax-background-mountains.png using Guid(b3808188acc05fe4d8744f9f40856368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3893007f17e8a1eb039789d3bd6d45c9') in 0.011713 seconds 
+  Import took 0.014284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/遊戲場景/MR-Platformer-PixelAssets-v1/Main/Backgrounds/parallax-forest-trees-01.png
+  artifactKey: Guid(fffd58fed8f0c9743b181b8c4c61a41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/MR-Platformer-PixelAssets-v1/Main/Backgrounds/parallax-forest-trees-01.png using Guid(fffd58fed8f0c9743b181b8c4c61a41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ef4b1cdfa4e6b93a523c2f381721a2') in 0.010161 seconds 
+  Import took 0.013685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/遊戲場景/MR-Platformer-PixelAssets-v1/Main/Backgrounds/parallax-background-mountains.png
+  artifactKey: Guid(b3808188acc05fe4d8744f9f40856368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/MR-Platformer-PixelAssets-v1/Main/Backgrounds/parallax-background-mountains.png using Guid(b3808188acc05fe4d8744f9f40856368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3893007f17e8a1eb039789d3bd6d45c9') in 0.007238 seconds 
+  Import took 0.009857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.737702 seconds.
+  path: Assets/遊戲場景/FPSET1_v1.0/_PNG
+  artifactKey: Guid(e6b45dc5605070344b8d5d445ca66de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/FPSET1_v1.0/_PNG using Guid(e6b45dc5605070344b8d5d445ca66de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47fd4436041eac4b1dbf04e110fdfa7') in 0.005327 seconds 
+  Import took 0.008058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107537 seconds.
+  path: Assets/遊戲場景/FPSET1_v1.0/_PNG/SET1_background_obj.png
+  artifactKey: Guid(48771f4dfdf8d0149ad2ff487713f89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/FPSET1_v1.0/_PNG/SET1_background_obj.png using Guid(48771f4dfdf8d0149ad2ff487713f89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9431f0aed7b0a2d3bcc4482a6c411e') in 0.013531 seconds 
+  Import took 0.016358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/遊戲場景/FPSET1_v1.0/_PNG/SET1_bakcground_day1.png
+  artifactKey: Guid(fe7e093a1798f214a9d29d1e4c1e6529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/FPSET1_v1.0/_PNG/SET1_bakcground_day1.png using Guid(fe7e093a1798f214a9d29d1e4c1e6529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0fcf650c7353215f9458e1e01acfa26') in 0.014913 seconds 
+  Import took 0.017411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/遊戲場景/FPSET1_v1.0/_PNG/SET1_bakcground_night3.png
+  artifactKey: Guid(3d1d6d2e966772a4bba27668492bb94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/FPSET1_v1.0/_PNG/SET1_bakcground_night3.png using Guid(3d1d6d2e966772a4bba27668492bb94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32966ac9000f2d26da54f3af48b160a7') in 0.017131 seconds 
+  Import took 0.019680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/遊戲場景/FPSET1_v1.0/_PNG/SET1_Mainlev_build.png
+  artifactKey: Guid(69ac60d9659f1104aa3c3b760e8bceb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/FPSET1_v1.0/_PNG/SET1_Mainlev_build.png using Guid(69ac60d9659f1104aa3c3b760e8bceb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306267a0e570e365ed4b96524fc7a32b') in 0.016040 seconds 
+  Import took 0.019320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/遊戲場景/FPSET1_v1.0/_PNG/SET1_bakcground_day3.png
+  artifactKey: Guid(d35c48a5e9b88664d9d5414b57bb5103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/FPSET1_v1.0/_PNG/SET1_bakcground_day3.png using Guid(d35c48a5e9b88664d9d5414b57bb5103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eded4ca0ff6133759a8bfb103fc76fcb') in 0.010414 seconds 
+  Import took 0.012992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/遊戲場景/FPSET1_v1.0/_PNG/SET1_decorative_obj.png
+  artifactKey: Guid(7d6ba4cdf951f784faf833a63a6a7317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/FPSET1_v1.0/_PNG/SET1_decorative_obj.png using Guid(7d6ba4cdf951f784faf833a63a6a7317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd7864b671c758dbfb0abebcefdd9fb') in 0.015648 seconds 
+  Import took 0.019359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/遊戲場景/FPSET1_v1.0/_PNG/SET1_bakcground_night1.png
+  artifactKey: Guid(22149e0f9680f0a49be2feacbacffeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/FPSET1_v1.0/_PNG/SET1_bakcground_night1.png using Guid(22149e0f9680f0a49be2feacbacffeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5fee439b2e4bb0cfec7c750d08fe52') in 0.011803 seconds 
+  Import took 0.014676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/遊戲場景/FPSET1_v1.0/_PNG/SET1_bakcground_night2.png
+  artifactKey: Guid(535b36bc3aeb654429b3b6c7b2870fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/FPSET1_v1.0/_PNG/SET1_bakcground_night2.png using Guid(535b36bc3aeb654429b3b6c7b2870fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac44a32fbd6db0774901193617f5589c') in 0.013425 seconds 
+  Import took 0.016519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/遊戲場景/FPSET1_v1.0/_PNG/SET1_bakcground_day2.png
+  artifactKey: Guid(a451f4be11e304041962b6766504c259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/FPSET1_v1.0/_PNG/SET1_bakcground_day2.png using Guid(a451f4be11e304041962b6766504c259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6034c82ee9423b1a73b8171db8bd47') in 0.013150 seconds 
+  Import took 0.015961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/遊戲場景/FPSET1_v1.0/_PNG/SET1_Main_bckgrdlev_build.png
+  artifactKey: Guid(c331d1475b30ef047a871ff956b0b474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/FPSET1_v1.0/_PNG/SET1_Main_bckgrdlev_build.png using Guid(c331d1475b30ef047a871ff956b0b474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fa95ae54ec774f53683107e7e9b24a') in 0.013991 seconds 
+  Import took 0.017038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000783 seconds.
+  path: Assets/遊戲場景/FPSET1_v1.0/_PNG/SET1_Main_bckgrdlev_build.png
+  artifactKey: Guid(c331d1475b30ef047a871ff956b0b474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/FPSET1_v1.0/_PNG/SET1_Main_bckgrdlev_build.png using Guid(c331d1475b30ef047a871ff956b0b474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fa95ae54ec774f53683107e7e9b24a') in 0.012086 seconds 
+  Import took 0.015104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.138312 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture
+  artifactKey: Guid(9b84d8fe74cdc874a813557f5b4e7fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture using Guid(9b84d8fe74cdc874a813557f5b4e7fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7da9f13b5383913d3fd5f36e3f95584') in 0.007097 seconds 
+  Import took 0.009958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076287 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png
+  artifactKey: Guid(55ff86693302156448ab21ccdba64e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png using Guid(55ff86693302156448ab21ccdba64e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247e33768691341b05c9cec6cbc0ac99') in 0.012980 seconds 
+  Import took 0.015740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6219dd888e624bbb6153c235a7e734') in 0.015486 seconds 
+  Import took 0.018028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png
+  artifactKey: Guid(a81ec32663fbc31429c572866777dd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png using Guid(a81ec32663fbc31429c572866777dd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a62f101ccf5a7e21cb5e68bf8593d3') in 0.012409 seconds 
+  Import took 0.015031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002099 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png
+  artifactKey: Guid(a81ec32663fbc31429c572866777dd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png using Guid(a81ec32663fbc31429c572866777dd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a62f101ccf5a7e21cb5e68bf8593d3') in 0.010597 seconds 
+  Import took 0.013564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.039239 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31a614a92224179589c4987fbae5477') in 0.010445 seconds 
+  Import took 0.013183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.870852 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png
+  artifactKey: Guid(a81ec32663fbc31429c572866777dd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png using Guid(a81ec32663fbc31429c572866777dd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf38ee561558c706fe8880681ff206d') in 0.013591 seconds 
+  Import took 0.016619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.086097 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png
+  artifactKey: Guid(55ff86693302156448ab21ccdba64e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png using Guid(55ff86693302156448ab21ccdba64e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981f7be6cb23ae15565cdace89d118cb') in 0.010704 seconds 
+  Import took 0.013437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 207.970968 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c11b3c97ee0c9de8e3f295caeca15c') in 0.307352 seconds 
+  Import took 0.310917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.430737 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png
+  artifactKey: Guid(a81ec32663fbc31429c572866777dd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png using Guid(a81ec32663fbc31429c572866777dd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4380fa848398a9779686df8fa9271104') in 0.122887 seconds 
+  Import took 0.125851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.962188 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png
+  artifactKey: Guid(55ff86693302156448ab21ccdba64e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png using Guid(55ff86693302156448ab21ccdba64e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50f968153ff20b64a174a3adb02b244') in 0.123527 seconds 
+  Import took 0.126376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.481979 seconds.
+  path: Assets/場景
+  artifactKey: Guid(d18df68a9393ef443a2ad426db0d25b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景 using Guid(d18df68a9393ef443a2ad426db0d25b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b45f9a656f6fb6e35cfcc36bfdc62d') in 0.006441 seconds 
+  Import took 0.009134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.448173 seconds.
+  path: Assets/遊戲場景/Metroidvania-DemoProject/Metroidvania
+  artifactKey: Guid(fa286b4a91b7d3143872c5829872f879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Metroidvania-DemoProject/Metroidvania using Guid(fa286b4a91b7d3143872c5829872f879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30564d06bd471a7b0675c8e84b12982c') in 0.006866 seconds 
+  Import took 0.009678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052832 seconds.
+  path: Assets/遊戲場景/Metroidvania-DemoProject/Metroidvania/icon.png
+  artifactKey: Guid(bb7c49703bb35cf4ea153ef4f15e9729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Metroidvania-DemoProject/Metroidvania/icon.png using Guid(bb7c49703bb35cf4ea153ef4f15e9729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463196129e57e2e6419d4d92b3d820a0') in 0.011592 seconds 
+  Import took 0.014401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 965.410962 seconds.
+  path: Assets/TX Tileset Ground_12.asset
+  artifactKey: Guid(ff199a1a5661c034a9e1d41cef111a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TX Tileset Ground_12.asset using Guid(ff199a1a5661c034a9e1d41cef111a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7929db19f3592b7acf8576fc6d8c7c08') in 0.022722 seconds 
+  Import took 0.025983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/TX Tileset Ground_13.asset
+  artifactKey: Guid(c65b90bc50e357647871dc0f01f592f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TX Tileset Ground_13.asset using Guid(c65b90bc50e357647871dc0f01f592f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053a711e784e67205474327e61fdd6df') in 0.013771 seconds 
+  Import took 0.016314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/TX Tileset Ground_14.asset
+  artifactKey: Guid(e66a0d934d2449149b12d203cfa3c4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TX Tileset Ground_14.asset using Guid(e66a0d934d2449149b12d203cfa3c4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c4486b6b49e3745182badc9feaae83') in 0.008204 seconds 
+  Import took 0.010828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 329.413141 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png
+  artifactKey: Guid(a81ec32663fbc31429c572866777dd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png using Guid(a81ec32663fbc31429c572866777dd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810ce4f63f114afd42e1524da5f030ce') in 0.122692 seconds 
+  Import took 0.125911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.711221 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png
+  artifactKey: Guid(55ff86693302156448ab21ccdba64e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png using Guid(55ff86693302156448ab21ccdba64e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47d25f5e0dba547e0fcc3baf4aa2554') in 0.120410 seconds 
+  Import took 0.124032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1089.019449 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5c5080a204fdc644ba993882e61524') in 0.176400 seconds 
+  Import took 0.179988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 739.111307 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7321fa5ac1f75c67b6ae3e4bb228f0') in 0.270658 seconds 
+  Import took 0.274334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.715939 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c509b5107c3849c4f66ec7c659fc3830') in 0.270627 seconds 
+  Import took 0.273719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.402021 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98bfb739819ed15cc583360ae3809b2') in 0.164322 seconds 
+  Import took 0.167555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.624444 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288d1adeb93ca75071bbbacd63458cce') in 0.165674 seconds 
+  Import took 0.168862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.692558 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166643aba68987cbfc6368dd3d105ac5') in 0.269867 seconds 
+  Import took 0.273010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.502525 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7974d49d1ecddf5153d463fe410e24fe') in 0.215984 seconds 
+  Import took 0.219168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.201349 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10fe622fae50f9e1f5a2f13296ff0441') in 0.268079 seconds 
+  Import took 0.271311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.166917 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdc3889c6716c3ec241037f5c2d741a') in 0.281173 seconds 
+  Import took 0.284415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.074574 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8280a9d843e1ec55dc2003b156933e') in 0.269372 seconds 
+  Import took 0.272526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.712143 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc140e52559bccff44e644be1bb06164') in 0.262158 seconds 
+  Import took 0.265529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.238165 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c1ea870fb36b9fdbdc36d621b32cc0') in 0.167000 seconds 
+  Import took 0.170260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.917786 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864b0d77f91b6b02b2fdbed6711ce093') in 0.269790 seconds 
+  Import took 0.273013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.641741 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb3c457eb18fd06d03e1c8249da2f36') in 0.277036 seconds 
+  Import took 0.280380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.260627 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383c96491fb35e0f17d8711cdf5518a0') in 0.273487 seconds 
+  Import took 0.276714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.644720 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9be79a1180415882425b554a0cfe9d0') in 0.381361 seconds 
+  Import took 0.384700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.050771 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b102a33c1d2709f0d3ab7f84cd4908f') in 0.303736 seconds 
+  Import took 0.306943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.665322 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8574bde53f9f455aa2bf9954be6617') in 0.280159 seconds 
+  Import took 0.283619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.791543 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af760fd531a54708ffe6736eff7ed13') in 0.274332 seconds 
+  Import took 0.277504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.678747 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7738f7abeab0642a68ae3ad6f5f2c4') in 0.268117 seconds 
+  Import took 0.271445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.922644 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c32680cc7c4074e19b14952c96ddc65') in 0.276483 seconds 
+  Import took 0.279900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.825457 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7152149316db27acebd4d7b3080d9620') in 0.282343 seconds 
+  Import took 0.285823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.845201 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cae3fa88ef55a36d144b1b610a68920') in 0.164209 seconds 
+  Import took 0.167473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.600721 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943ab9dd035d945365edfd4e0d51d24f') in 0.169547 seconds 
+  Import took 0.172758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.519038 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a65813aa1e339fece53aebe7576807') in 0.165142 seconds 
+  Import took 0.168622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.007588 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d07ec9b9a9d7d51360af5db65f5560') in 0.264685 seconds 
+  Import took 0.267919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.535918 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a2aae57e9ab91d1d25a78145ec3c76') in 0.163498 seconds 
+  Import took 0.166869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.689837 seconds.
+  path: Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/遊戲場景/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(f20b86257a82a8444a511baf0607b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4484698d424d96beca0b829644a815') in 0.280391 seconds 
+  Import took 0.283758 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
