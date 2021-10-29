@@ -85,14 +85,14 @@ public class Car : MonoBehaviour
     // 自訂方法 : 不會執行，必須呼叫才會執行
     private void Test()
     {
-        //ﾅ・ﾅｹﾕﾉ) - ﾙｹﾕﾉﾅﾝ Unity ・ﾏﾐﾎｲ Console
+        //輸出(訊息) - 將訊息輸出至 Unity 儀錶板 Console
         print("hellow.world");
     }
     private void Drive80()
     {
         print("drive:" + 80);
     }
-    //參數語法 : 不會執行，必須呼叫才會執行
+    //參數語法 : 資料類型 參數名稱
     private void Drive(int speed)
     {
         print("drive:" + speed);
