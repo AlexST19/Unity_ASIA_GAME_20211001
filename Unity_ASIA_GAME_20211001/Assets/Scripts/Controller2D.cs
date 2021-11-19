@@ -11,7 +11,7 @@ public class Controller2D : MonoBehaviour
     public float jump = 300f;
     #endregion
     /// <summary>
-    /// 剛體元件 Rigidbody 2d
+    /// 剛體元件 Rigidbody 2D
     /// </summary>
     private Rigidbody2D rig ;
 
@@ -19,4 +19,16 @@ public class Controller2D : MonoBehaviour
     {
         rig = GetComponent <Rigidbody2D>();
     }
+    #region 方法
+    private void FixedUpdate()
+    {
+        Move();
+    }
+
+    private void Move()
+    {
+        float h = Input.GetAxis("Horizontal");
+        print("玩家按鍵數值" + h );
+    }
+    #endregion
 }
