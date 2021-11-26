@@ -882,7 +882,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!95 &649614936
 Animator:
@@ -962,7 +962,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 649614935}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.1819596, y: -3.5217218, z: 0}
+  m_LocalPosition: {x: 4.37, y: -3.44, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -982,6 +982,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3.5
   jump: 300
+  CheckGroundReidend: 0.1
+  CheckGroundOffect: {x: 0, y: -0.45, z: 0}
+  KeyJump: 32
+  canJumpLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!70 &649614940
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1332,7 +1338,7 @@ GameObject:
   - component: {fileID: 812135971}
   - component: {fileID: 812135970}
   - component: {fileID: 812135969}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u5730\u5F62"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
