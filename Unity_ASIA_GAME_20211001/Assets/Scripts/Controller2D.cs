@@ -17,9 +17,9 @@ public class Controller2D : MonoBehaviour
     [Header("跳躍按鍵與可跳躍圖層")]
     public KeyCode KeyJump = KeyCode.Space;
     public LayerMask canJumpLayer;
-    [Header("動畫參數:走路與跳躍"]
-    public string parameterwalk = "開關走路";
-    public string parameterJump = "開關跳躍";
+    [Header("動畫參數:走路與跳躍")]
+    public string parameterwalk = "走路開關";
+    public string parameterJump = "跳躍開關";
 
     #endregion
 
@@ -74,6 +74,7 @@ public class Controller2D : MonoBehaviour
         //print("玩家按鍵數值" + h );
 
         rig.velocity = new Vector2(h * speed , rig.velocity.y);
+        ani.SetBool(parameterwalk, h != 0);
     }
 
     private void Flips()
@@ -105,6 +106,7 @@ public class Controller2D : MonoBehaviour
         {
             rig.AddForce(new Vector2( 0, jump));
         }
+        ani.SetBool(parameterJump, !isGrounded);
     }
 
     #endregion
