@@ -1,16 +1,16 @@
 using UnityEngine;
 /// <summary>
-/// 2D ¾î¦V¨÷¶bª©¥»
+/// 2D ¾ûÂV¨÷¶bª©¥»
 /// </summary>
 public class Controller2D : MonoBehaviour
 {
-    #region Äæ¦ì:¤½¶}
+    #region Äæ¦E¤½¶}
 
     [Header("²¾°Ê³t«×"), Range(0, 150)]
     public float speed = 3.5f;
     [Header("¸õÅD°ª«×"), Range(0, 1500)]
     public float jump = 300f;
-    [Header("½T»{¦aªO¤Ø¤o»P¦ì²¾")]
+    [Header("½T»{¦aªO¤Ø¤o»P¦E¾")]
     [Range(0, 1)]
     public float CheckGroundReidend = 0.1f;
     public Vector3 CheckGroundOffect;
@@ -18,15 +18,15 @@ public class Controller2D : MonoBehaviour
     public KeyCode KeyJump = KeyCode.Space;
     public LayerMask canJumpLayer;
     [Header("°Êµe°Ñ¼Æ:¨«¸ô»P¸õÅD")]
-    public string parameterwalk = "¨«¸ô¶}Ãö";
-    public string parameterJump = "¸õÅD¶}Ãö";
+    public string parameterwalk = "¨«¸ô¶}ÃE";
+    public string parameterJump = "¸õÅD¶}ÃE";
 
     #endregion
 
-    #region Äæ¦ì:¨p¤H
+    #region Äæ¦E¨p¤H
 
     /// <summary>
-    /// ­èÅé¤¸¥ó Rigidbody 2D
+    /// ­èÅé¤¸¥ERigidbody 2D
     /// </summary>
     private Animator ani;
     private Rigidbody2D rig ;
@@ -36,7 +36,7 @@ public class Controller2D : MonoBehaviour
 
     #endregion
 
-    #region ¨Æ¥ó
+    #region ¨Æ¥E
 
     private void OnDrawGizmos()
     {
