@@ -1174,6 +1174,8 @@ MonoBehaviour:
   interval: 0.3
   goDialogue: {fileID: 980087237}
   textContent: {fileID: 1770026912}
+  goTip: {fileID: 1367041998}
+  keyDialogue: 323
 --- !u!4 &719480592
 Transform:
   m_ObjectHideFlags: 0
