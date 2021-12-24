@@ -13,8 +13,11 @@ public class Enemy : MonoBehaviour
     public float speed = 1.5f;
     [Header("目標圖層")]
     public LayerMask layerTarget;
+    [Header("動畫參數")]
+    public string parameterWalk = "走路開關";
 
     private Rigidbody2D rig;
+    private Animator ani;
 
     private void Start()
     {
@@ -32,11 +35,18 @@ public class Enemy : MonoBehaviour
     {
         checkTargetInArea();
     }
+
     private void checkTargetInArea()
     {
         Collider2D hit = Physics2D.OverlapBox(transform.position + transform.TransformDirection(v3TrackOffset), v3TrackSive , 0, layerTarget);
 
-        if (hit) rig.velocity = new Vector2(-speed, rig.velocity.y);
+        //if (hit) rig.velocity = new Vector2(-speed, rig.velocity.y);
+        if (hit) Move();
     }
 
+    private void Move()
+    {
+        rig.velocity = new Vector2(-speed, rig.velocity.y);
+        ani.SetBool(parameterWalk, true);
+    }
 }
