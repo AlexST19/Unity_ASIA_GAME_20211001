@@ -53,9 +53,16 @@ public class Enemy : MonoBehaviour
     private void Move()
     {
 
+
+
         angle = target.position.x > transform.position.x ? 180 : 0 ; 
 
-        rig.velocity = new Vector2(-speed, rig.velocity.y);
+        transform.eulerAngles = Vector3.up * angle;
+
+        rig.velocity = transform.TransformDirection(new Vector2(-speed, rig.velocity.y));
         ani.SetBool(parameterWalk, true);
+
+        float distance = Vector3.Distance(target.position, transform.position);
+        print("與目標的距離:" + distance);
     }
 }
