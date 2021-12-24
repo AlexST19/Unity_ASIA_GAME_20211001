@@ -723,7 +723,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   parameterWalk: "\u958B\u95DC\u8D70\u8DEF"
-  target: {fileID: 0}
+  target: {fileID: 649614938}
 --- !u!70 &503194426
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
