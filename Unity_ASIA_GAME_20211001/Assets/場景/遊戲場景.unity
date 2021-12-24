@@ -610,6 +610,7 @@ GameObject:
   - component: {fileID: 503194424}
   - component: {fileID: 503194423}
   - component: {fileID: 503194422}
+  - component: {fileID: 503194425}
   m_Layer: 0
   m_Name: "\u9AB7\u9ACF"
   m_TagString: Untagged
@@ -701,6 +702,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &503194425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503194421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09aaae6982a165e4395d7b2ae7644503, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  v3TrackSive: {x: 1, y: 1, z: 1}
+  v3TrackOffset: {x: 0, y: 0, z: 0}
+  speed: 1.5
+  layerTarget:
+    serializedVersion: 2
+    m_Bits: 32
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
