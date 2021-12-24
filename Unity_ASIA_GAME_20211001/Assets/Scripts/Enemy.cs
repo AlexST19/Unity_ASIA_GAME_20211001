@@ -17,7 +17,12 @@ public class Enemy : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = new Color(1, 0, 0, 0.3f);
-        Gizmos.DrawCube(transform.position + v3TrackOffset, v3TrackSive);            
+        Gizmos.DrawCube(transform.position + transform.TransformDirection(v3TrackOffset), v3TrackSive);
+        
+    }
+    private void checkTargetInArea()
+    {
+        Physics2D.OverlapBox(transform.position + transform.TransformDirection(v3TrackOffset), v3TrackSive , 0);
     }
 
 }
