@@ -15,9 +15,15 @@ public class Enemy : MonoBehaviour
     public LayerMask layerTarget;
     [Header("動畫參數")]
     public string parameterWalk = "走路開關";
+    [Header("面相目標物件")]
+    public Transform target;
 
+
+    private float angle;
     private Rigidbody2D rig;
     private Animator ani;
+
+    
 
     private void Start()
     {
@@ -46,6 +52,9 @@ public class Enemy : MonoBehaviour
 
     private void Move()
     {
+
+        angle = target.position.x > transform.position.x ? 180 : 0 ; 
+
         rig.velocity = new Vector2(-speed, rig.velocity.y);
         ani.SetBool(parameterWalk, true);
     }
