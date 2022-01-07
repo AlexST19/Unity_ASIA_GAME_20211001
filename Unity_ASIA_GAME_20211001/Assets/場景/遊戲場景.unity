@@ -723,7 +723,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   parameterWalk: "\u958B\u95DC\u8D70\u8DEF"
+  parameterAttack: "\u89F8\u767C\u653B\u64CA"
   target: {fileID: 649614938}
+  attackDistance: 0
+  attackCD: 2.8
+  v3AttackSive: {x: 1, y: 1, z: 1}
+  v3AttackOffset: {x: -0.51, y: 0, z: 0}
+  attack: 35
 --- !u!70 &503194426
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -972,6 +978,7 @@ GameObject:
   - component: {fileID: 649614941}
   - component: {fileID: 649614940}
   - component: {fileID: 649614939}
+  - component: {fileID: 649614942}
   m_Layer: 6
   m_Name: "\u5C0F\u6050\u9F8D"
   m_TagString: Untagged
@@ -1123,6 +1130,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &649614942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649614935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc3cf9ac471e1a047be878cf8ef1aa51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imgHpbar: {fileID: 2132578507}
+  hp: 100
+  hpMax: 0
+  parameterDead: "\u89F8\u767C\u6B7B\u4EA1"
 --- !u!1 &693862164
 GameObject:
   m_ObjectHideFlags: 0
