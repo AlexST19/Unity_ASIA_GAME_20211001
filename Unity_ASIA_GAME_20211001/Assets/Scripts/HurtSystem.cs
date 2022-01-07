@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class HurtSystem : MonoBehaviour
 {
@@ -14,6 +15,11 @@ public class HurtSystem : MonoBehaviour
     public string parameterDead = "觸發死亡";
 
     private Animator ani;
+
+    [Header("死亡事件")]
+    public UnityEvent onDead;
+
+
 
 
     private void Awake()
@@ -35,5 +41,6 @@ public class HurtSystem : MonoBehaviour
     private void Dead()
     {
         ani.SetTrigger(parameterDead);
+        onDead.Invoke();
     }
 }
